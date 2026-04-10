@@ -8,7 +8,7 @@ const WORD = words[Math.floor(Math.random() * words.length)];
 
 function App() {
   const [currGuess, setCurrGuess] = useState<number>(0);
-  const [guess, setGuess] = useState<string | null>("");
+  const [guess, setGuess] = useState("");
 
   const [gameOver, setGameOver] = useState<boolean>(false);
   const [gameWon, setGameWon] = useState<boolean>(false);
